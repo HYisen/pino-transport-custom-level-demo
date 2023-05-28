@@ -16,7 +16,8 @@ function createLogger() {
     };
     return pino({
         transport: {targets: targets},
-        customLevels: levels
+        customLevels: levels,
+        levels: pino.levels.values,
     })
 }
 
