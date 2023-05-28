@@ -21,4 +21,6 @@ function createLogger() {
 }
 
 const logger = createLogger();
+console.log("0")
 logger.info("echo");
+console.log("1")
